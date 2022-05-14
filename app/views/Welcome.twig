@@ -1,0 +1,27 @@
+{% extends "Template.twig" %}
+
+{% block content %}
+
+    <div class="mainContainer">
+        <figure class="main__logo">
+            <img src="https://i.imgur.com/lKtlQBW.png" loading="lazy" alt="Arcturus Logo" class="main__logo--img">
+        </figure>
+
+        <div class="main__description">
+            <p class="main__description--text center">Welcome!!</p>
+            <p class="main__description--text">Create projects in PHP using MVC Architecture. For templates using Twig,
+                Sass preprocessor style and possibility of use JS or TS.
+                <br> For all functions type in your terminal: php ada --help </p>
+            <div class="main__description--repo">
+                <p>Do you want to be a collaborator? &nbsp;</p>
+                <a target="_blank" href="https://github.com/Oneago/arcturus-project">Fork in this repo <i
+                            class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <p class="main__footer">
+            Created by Oneago and Supported by the community and Oneago
+        </p>
+    </div>
+
+{% endblock %}
