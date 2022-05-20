@@ -1,0 +1,11 @@
+/*
+ * _footer.scss
+ * Created by juandavidaguirrecamargo
+ * 20/05/2022 16:23:00
+ */
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(170px, 1fr) );
+
+}

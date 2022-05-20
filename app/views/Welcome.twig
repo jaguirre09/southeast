@@ -1,27 +1,319 @@
-{% extends "Template.twig" %}
+{% extends "content/Header.twig" %}
 
 {% block content %}
 
-    <div class="mainContainer">
-        <figure class="main__logo">
-            <img src="https://i.imgur.com/lKtlQBW.png" loading="lazy" alt="Arcturus Logo" class="main__logo--img">
-        </figure>
+    <div class="container">
 
-        <div class="main__description">
-            <p class="main__description--text center">Welcome!!</p>
-            <p class="main__description--text">Create projects in PHP using MVC Architecture. For templates using Twig,
-                Sass preprocessor style and possibility of use JS or TS.
-                <br> For all functions type in your terminal: php ada --help </p>
-            <div class="main__description--repo">
-                <p>Do you want to be a collaborator? &nbsp;</p>
-                <a target="_blank" href="https://github.com/Oneago/arcturus-project">Fork in this repo <i
-                            class="fab fa-github"></i></a>
-            </div>
+        <div class="fondo">
+            <div class="title_float"> LABOR SOLUTIONS</div>
+            <img src="{{ getAssets('img/fondo1.png') }}" class="fondo_1" alt="">
+
         </div>
 
-        <p class="main__footer">
-            Created by Oneago and Supported by the community and Oneago
-        </p>
+        <div class="sub_cabeza">
+            <div class="sub_cabeza_1">
+                Do You Have A Staffing Solution We Can Help With?
+            </div>
+
+        </div>
+
+        <div class="title_1">
+            We are a progressive company offering personnel services to all levels of employers. Hiring temporary
+            labor
+            is a cost-effective solution to the rising concerns associated with employment.
+            <hr>
+        </div>
+
+        <div class="container_grid_1">
+
+            <div>
+                <div class="title_1">
+                    Solutions for Business
+                    <hr>
+                </div>
+                <div class="parrafo">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aperiam eaque
+                        enim
+                        ipsum
+                        iure, maiores minus modi mollitia nesciunt pariatur perspiciatis, possimus praesentium quod
+                        ratione,
+                        repellat rerum totam voluptatibus?
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos, ex laboriosam pariatur
+                        porro
+                        tenetur? Aliquam consequatur dolore eius exercitationem explicabo ipsa ipsum nobis, odit
+                        possimus
+                        ut.
+                        Ducimus, saepe tempora.
+                    </p>
+                </div>
+
+            </div>
+
+            <div>
+                <div class="title_1">
+                    Solutions for Individuals
+
+                    <hr>
+                </div>
+                <div class="parrafo">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aperiam eaque
+                        enim
+                        ipsum
+                        iure, maiores minus modi mollitia nesciunt pariatur perspiciatis, possimus praesentium quod
+                        ratione,
+                        repellat rerum totam voluptatibus?
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos, ex laboriosam pariatur
+                        porro
+                        tenetur? Aliquam consequatur dolore eius exercitationem explicabo ipsa ipsum nobis, odit
+                        possimus
+                        ut.
+                        Ducimus, saepe tempora.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container_grid_2" style="text-align: center">
+
+            <div class="card">
+                <div class="card_1">
+                    <div class="position_grid_1">
+                        <div class="i_desk">
+                            <i class='fa fa-building'
+                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                        </div>
+                        <div class="title_2">
+                            Admininstrative
+                        </div>
+                    </div>
+
+                    <div class="position_grid_2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
+                        voluptatem!
+                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
+                        sint
+                        unde veniam. Dolorem!
+                        <a href="" class="search">Buscar</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card_1">
+                    <div class="position_grid_1">
+                        <div class="i_desk">
+                            <i class='fa fa-refresh'
+                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                        </div>
+                        <div class="title_2">
+                            Admininstrative
+                        </div>
+                    </div>
+                    <div class="position_grid_2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
+                        voluptatem!
+                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
+                        sint
+                        unde veniam. Dolorem!
+                        <a href="" class="search">Buscar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_1">
+                    <div class="position_grid_1">
+                        <div class="i_desk">
+                            <i class='fa-solid fa-house'
+                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                        </div>
+                        <div class="title_2">
+                            Admininstrative
+                        </div>
+                    </div>
+                    <div class="position_grid_2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
+                        voluptatem!
+                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
+                        sint
+                        unde veniam. Dolorem!
+                        <a href="" class="search">Buscar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_1">
+                    <div class="position_grid_1">
+                        <div class="i_desk">
+                            <i class='fas fa-car-side'
+                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                        </div>
+                        <div class="title_2">
+                            Admininstrative
+                        </div>
+                    </div>
+                    <div class="position_grid_2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
+                        voluptatem!
+                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
+                        sint
+                        unde veniam. Dolorem!
+                        <a href="" class="search">Buscar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_1">
+                    <div class="position_grid_1">
+                        <div class="i_desk">
+                            <i class='fas fa-car-side'
+                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                        </div>
+                        <div class="title_2">
+                            Admininstrative
+                        </div>
+                    </div>
+                    <div class="position_grid_2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
+                        voluptatem!
+                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
+                        sint
+                        unde veniam. Dolorem!
+                        <a href="" class="search">Buscar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container_grid_1 BG_C" style="margin-top: 300px">
+
+            <div>
+                <div class="title_1">
+                    Our Core Values
+                </div>
+
+                <div class="title_2 padding">
+                    Meeting the challenge of changing personnel levels in today’s environment can be a real frustrating
+                    experience. Labor Solutions can help you reduce this frustration by providing you with many options
+                    in meeting your ever-changing needs. We provide 24/7 recruiting, interviewing, screening, skills
+                    assessment, background checks, and drug screens. Labor Solutions provides worker compensation
+                    coverage, we handle unemployment issues, light duty programs, along with payroll for our workers. We
+                    also provide safety training and prevent a drop in productivity levels.
+                    <br><br>
+                    Labor Solutions believes that frequent and quality communication is the key to a successful
+                    partnership, and we are dedicated to that goal. We are able to address any special needs you may
+                    have and respond to them in a timely and efficient manner. We provide you with short and long-term
+                    temporary workers, temp-to-perm, direct placement, and project or on-site programs, and we also have
+                    employee leasing options. If you have a personnel need, we have the right solution for you!
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container_grid_2 BG_C">
+
+            <div class="card2">
+                <div class="card_1">
+                    <div class="position_grid_3">
+
+                        <i class='fas fa-car-side'
+                           style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+
+                    </div>
+                </div>
+                <div class="position_grid_4">
+                    Great Services
+                </div>
+            </div>
+
+
+            <div class="card2">
+                <div class="card_1">
+                    <div class="position_grid_3">
+
+                        <i class='fas fa-car-side'
+                           style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+
+                    </div>
+                </div>
+                <div class="position_grid_4">
+                    Great Services
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="card_1">
+                    <div class="position_grid_3">
+
+                        <i class='fas fa-car-side'
+                           style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+
+                    </div>
+                </div>
+                <div class="position_grid_4">
+                    Great Services
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="card_1">
+                    <div class="position_grid_3">
+
+                        <i class='fas fa-car-side'
+                           style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+
+                    </div>
+                </div>
+                <div class="position_grid_4">
+                    Great Services
+                </div>
+            </div>
+
+        </div>
+
+
+        <Slider>
+
+
+        </Slider>
+
+
+        <div class="container BG_C">
+
+        </div>
+
+
+        <footer class="container_grid_1">
+
+            <div class="Logo">
+
+            </div>
+            <div class="content">
+
+            </div>
+            <div class="content">
+
+            </div>
+            <div class="content">
+
+            </div>
+
+        </footer>
+
+
     </div>
 
 {% endblock %}
