@@ -1,12 +1,52 @@
 {% extends "content/Header.twig" %}
 
 {% block content %}
+    <style>
 
+    </style>
     <div class="container">
 
-        <div class="fondo">
-            <div class="title_float"> LABOR SOLUTIONS</div>
-            <img src="{{ getAssets('img/fondo1.png') }}" class="fondo_1" alt="">
+        <div class="content1">
+
+            <div class="vacio">
+
+            </div>
+
+
+            <div class="fondo">
+
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="{{ getAssets('img/img1.png') }}" class="fondo_2">
+                        <div class="text">Caption Text</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="{{ getAssets('img/img2.png') }}" class="fondo_2">
+                        <div class="text">Caption Two</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="{{ getAssets('img/img3.png') }}" class="fondo_2">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+
+                </div>
+
+
+                <div class="title_float"> LABOR SOLUTIONS</div>
+            </div>
+
+            <div class="vacio">
+
+            </div>
 
         </div>
 
@@ -171,6 +211,78 @@
                 </div>
             </div>
 
+        </div>
+
+        <div class="container_grid_2" style="text-align: center">
+
+            <div class="card">
+                <div class="card_1">
+                    <div class="position_grid_1">
+                        <div class="i_desk">
+                            <i class='fa fa-building'
+                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                        </div>
+                        <div class="title_2">
+                            Admininstrative
+                        </div>
+                    </div>
+
+                    <div class="position_grid_2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
+                        voluptatem!
+                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
+                        sint
+                        unde veniam. Dolorem!
+                        <a href="" class="search">Buscar</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card_1">
+                    <div class="position_grid_1">
+                        <div class="i_desk">
+                            <i class='fa fa-refresh'
+                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                        </div>
+                        <div class="title_2">
+                            Admininstrative
+                        </div>
+                    </div>
+                    <div class="position_grid_2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
+                        voluptatem!
+                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
+                        sint
+                        unde veniam. Dolorem!
+                        <a href="" class="search">Buscar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_1">
+                    <div class="position_grid_1">
+                        <div class="i_desk">
+                            <i class='fa-solid fa-house'
+                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                        </div>
+                        <div class="title_2">
+                            Admininstrative
+                        </div>
+                    </div>
+                    <div class="position_grid_2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
+                        voluptatem!
+                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
+                        sint
+                        unde veniam. Dolorem!
+                        <a href="" class="search">Buscar</a>
+                    </div>
+                </div>
+            </div>
+
             <div class="card">
                 <div class="card_1">
                     <div class="position_grid_1">
@@ -193,10 +305,11 @@
                 </div>
             </div>
 
+
         </div>
 
 
-        <div class="container_grid_1 BG_C" style="margin-top: 300px">
+        <div class="container_grid_1 BG_C">
 
             <div>
                 <div class="title_1">
@@ -223,7 +336,7 @@
         </div>
 
 
-        <div class="container_grid_2 BG_C">
+        <div class="container_grid_4 BG_C">
 
             <div class="card2">
                 <div class="card_1">
@@ -285,10 +398,36 @@
         </div>
 
 
-        <Slider>
+        <div class="fondo1" >
+
+            <div class="slideshow-container" style="background-image: url('{{ getAssets('img/slider2.png') }}')">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="{{ getAssets('img/img1.png') }}" class="fondo_2">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="{{ getAssets('img/img2.png') }}" class="fondo_2">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="{{ getAssets('img/img3.png') }}" class="fondo_2">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+
+            </div>
 
 
-        </Slider>
+            <div class="title_float"> LABOR SOLUTIONS</div>
+        </div>
 
 
         <div class="container BG_C">
@@ -315,5 +454,24 @@
 
 
     </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+    </script>
 
 {% endblock %}
