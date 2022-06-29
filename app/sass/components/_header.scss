@@ -42,14 +42,19 @@ header {
 
 
       }
+
     }
 
   }
+   li:hover a {
+    color: #88C4E2;
+  }
+
+
+
 }
 
-a:hover {
-  color: #88C4E2;
-}
+
 
 .logo {
   width: 100%;

@@ -8,9 +8,12 @@
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
 
     <!--Fonts -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ getCss('style.css') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
           integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
@@ -23,11 +26,11 @@
 <header>
 
     <ul class="ul">
-        <li><a href="">HOME</a></li>
-        <li><a href="">SERVICES</a></li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="#urls">SERVICES</a></li>
         <div class="logo_1"><img src="{{ getAssets('icon/logo.jpeg') }}" class="logo" alt=""></div>
         <li><a href="">BLOG</a></li>
-        <li><a href="">CONTACT US</a></li>
+        <li><a href="Contact">CONTACT US</a></li>
     </ul>
 </header>
 
@@ -35,6 +38,10 @@
     {% block content %}
     {% endblock %}
 </article>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
 

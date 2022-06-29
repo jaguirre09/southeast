@@ -1,9 +1,7 @@
 {% extends "content/Header.twig" %}
 
 {% block content %}
-    <style>
 
-    </style>
     <div class="container">
 
         <div class="content1">
@@ -13,27 +11,25 @@
             </div>
 
 
-            <div class="fondo">
+            <div class="fondo" style="background-image: url('{{ getAssets('icon/logo.jpeg') }}')">
 
                 <div class="slideshow-container">
 
                     <!-- Full-width images with number and caption text -->
-                    <div class="mySlides fade">
-                        <div class="numbertext">1 / 3</div>
-                        <img src="{{ getAssets('img/img1.png') }}" class="fondo_2">
-                        <div class="text">Caption Text</div>
+                    <div class="mySlider fade">
+                        <div class="numbertext">
+                        <img src="{{ getAssets('img/img1.png') }}" class="fondo_1"></div>
+
                     </div>
 
-                    <div class="mySlides fade">
-                        <div class="numbertext">2 / 3</div>
-                        <img src="{{ getAssets('img/img2.png') }}" class="fondo_2">
-                        <div class="text">Caption Two</div>
+                    <div class="mySlider fade">
+                        <div class="numbertext">
+                        <img src="{{ getAssets('img/img2.png') }}" class="fondo_1"></div>
                     </div>
 
-                    <div class="mySlides fade">
-                        <div class="numbertext">3 / 3</div>
-                        <img src="{{ getAssets('img/img3.png') }}" class="fondo_2">
-                        <div class="text">Caption Three</div>
+                    <div class="mySlider fade">
+                        <div class="numbertext">
+                        <img src="{{ getAssets('img/img3.png') }}" class="fondo_1"></div>
                     </div>
 
                     <!-- Next and previous buttons -->
@@ -41,437 +37,425 @@
                 </div>
 
 
-                <div class="title_float"> LABOR SOLUTIONS</div>
-            </div>
-
-            <div class="vacio">
-
-            </div>
-
-        </div>
-
-        <div class="sub_cabeza">
-            <div class="sub_cabeza_1">
-                Do You Have A Staffing Solution We Can Help With?
-            </div>
-
-        </div>
-
-        <div class="title_1">
-            We are a progressive company offering personnel services to all levels of employers. Hiring temporary
-            labor
-            is a cost-effective solution to the rising concerns associated with employment.
-            <hr>
-        </div>
-
-        <div class="container_grid_1">
-
-            <div>
-                <div class="title_1">
-                    Solutions for Business
-                    <hr>
-                </div>
-                <div class="parrafo">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aperiam eaque
-                        enim
-                        ipsum
-                        iure, maiores minus modi mollitia nesciunt pariatur perspiciatis, possimus praesentium quod
-                        ratione,
-                        repellat rerum totam voluptatibus?
-
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos, ex laboriosam pariatur
-                        porro
-                        tenetur? Aliquam consequatur dolore eius exercitationem explicabo ipsa ipsum nobis, odit
-                        possimus
-                        ut.
-                        Ducimus, saepe tempora.
-                    </p>
-                </div>
-
-            </div>
-
-            <div>
-                <div class="title_1">
-                    Solutions for Individuals
-
-                    <hr>
-                </div>
-                <div class="parrafo">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aperiam eaque
-                        enim
-                        ipsum
-                        iure, maiores minus modi mollitia nesciunt pariatur perspiciatis, possimus praesentium quod
-                        ratione,
-                        repellat rerum totam voluptatibus?
-
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos, ex laboriosam pariatur
-                        porro
-                        tenetur? Aliquam consequatur dolore eius exercitationem explicabo ipsa ipsum nobis, odit
-                        possimus
-                        ut.
-                        Ducimus, saepe tempora.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="container_grid_2" style="text-align: center">
-
-            <div class="card">
-                <div class="card_1">
-                    <div class="position_grid_1">
-                        <div class="i_desk">
-                            <i class='fa fa-building'
-                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-                        </div>
-                        <div class="title_2">
-                            Admininstrative
-                        </div>
-                    </div>
-
-                    <div class="position_grid_2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
-                        voluptatem!
-                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
-                        sint
-                        unde veniam. Dolorem!
-                        <a href="" class="search">Buscar</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="card">
-                <div class="card_1">
-                    <div class="position_grid_1">
-                        <div class="i_desk">
-                            <i class='fa fa-refresh'
-                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-                        </div>
-                        <div class="title_2">
-                            Admininstrative
-                        </div>
-                    </div>
-                    <div class="position_grid_2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
-                        voluptatem!
-                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
-                        sint
-                        unde veniam. Dolorem!
-                        <a href="" class="search">Buscar</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card_1">
-                    <div class="position_grid_1">
-                        <div class="i_desk">
-                            <i class='fa-solid fa-house'
-                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-                        </div>
-                        <div class="title_2">
-                            Admininstrative
-                        </div>
-                    </div>
-                    <div class="position_grid_2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
-                        voluptatem!
-                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
-                        sint
-                        unde veniam. Dolorem!
-                        <a href="" class="search">Buscar</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card_1">
-                    <div class="position_grid_1">
-                        <div class="i_desk">
-                            <i class='fas fa-car-side'
-                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-                        </div>
-                        <div class="title_2">
-                            Admininstrative
-                        </div>
-                    </div>
-                    <div class="position_grid_2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
-                        voluptatem!
-                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
-                        sint
-                        unde veniam. Dolorem!
-                        <a href="" class="search">Buscar</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="container_grid_2" style="text-align: center">
-
-            <div class="card">
-                <div class="card_1">
-                    <div class="position_grid_1">
-                        <div class="i_desk">
-                            <i class='fa fa-building'
-                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-                        </div>
-                        <div class="title_2">
-                            Admininstrative
-                        </div>
-                    </div>
-
-                    <div class="position_grid_2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
-                        voluptatem!
-                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
-                        sint
-                        unde veniam. Dolorem!
-                        <a href="" class="search">Buscar</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="card">
-                <div class="card_1">
-                    <div class="position_grid_1">
-                        <div class="i_desk">
-                            <i class='fa fa-refresh'
-                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-                        </div>
-                        <div class="title_2">
-                            Admininstrative
-                        </div>
-                    </div>
-                    <div class="position_grid_2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
-                        voluptatem!
-                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
-                        sint
-                        unde veniam. Dolorem!
-                        <a href="" class="search">Buscar</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card_1">
-                    <div class="position_grid_1">
-                        <div class="i_desk">
-                            <i class='fa-solid fa-house'
-                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-                        </div>
-                        <div class="title_2">
-                            Admininstrative
-                        </div>
-                    </div>
-                    <div class="position_grid_2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
-                        voluptatem!
-                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
-                        sint
-                        unde veniam. Dolorem!
-                        <a href="" class="search">Buscar</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card_1">
-                    <div class="position_grid_1">
-                        <div class="i_desk">
-                            <i class='fas fa-car-side'
-                               style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-                        </div>
-                        <div class="title_2">
-                            Admininstrative
-                        </div>
-                    </div>
-                    <div class="position_grid_2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim neque officiis
-                        voluptatem!
-                        Asperiores consequuntur culpa dolores doloribus, ducimus ea enim nulla odio pariatur quod rerum
-                        sint
-                        unde veniam. Dolorem!
-                        <a href="" class="search">Buscar</a>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-
-        <div class="container_grid_1 BG_C">
-
-            <div>
-                <div class="title_1">
-                    Our Core Values
-                </div>
-
-                <div class="title_2 padding">
-                    Meeting the challenge of changing personnel levels in today’s environment can be a real frustrating
-                    experience. Labor Solutions can help you reduce this frustration by providing you with many options
-                    in meeting your ever-changing needs. We provide 24/7 recruiting, interviewing, screening, skills
-                    assessment, background checks, and drug screens. Labor Solutions provides worker compensation
-                    coverage, we handle unemployment issues, light duty programs, along with payroll for our workers. We
-                    also provide safety training and prevent a drop in productivity levels.
-                    <br><br>
-                    Labor Solutions believes that frequent and quality communication is the key to a successful
-                    partnership, and we are dedicated to that goal. We are able to address any special needs you may
-                    have and respond to them in a timely and efficient manner. We provide you with short and long-term
-                    temporary workers, temp-to-perm, direct placement, and project or on-site programs, and we also have
-                    employee leasing options. If you have a personnel need, we have the right solution for you!
-
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="container_grid_4 BG_C">
-
-            <div class="card2">
-                <div class="card_1">
-                    <div class="position_grid_3">
-
-                        <i class='fas fa-car-side'
-                           style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-
-                    </div>
-                </div>
-                <div class="position_grid_4">
-                    Great Services
-                </div>
-            </div>
-
-
-            <div class="card2">
-                <div class="card_1">
-                    <div class="position_grid_3">
-
-                        <i class='fas fa-car-side'
-                           style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-
-                    </div>
-                </div>
-                <div class="position_grid_4">
-                    Great Services
-                </div>
-            </div>
-
-            <div class="card2">
-                <div class="card_1">
-                    <div class="position_grid_3">
-
-                        <i class='fas fa-car-side'
-                           style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-
-                    </div>
-                </div>
-                <div class="position_grid_4">
-                    Great Services
-                </div>
-            </div>
-
-            <div class="card2">
-                <div class="card_1">
-                    <div class="position_grid_3">
-
-                        <i class='fas fa-car-side'
-                           style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
-
-                    </div>
-                </div>
-                <div class="position_grid_4">
-                    Great Services
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="fondo1" >
-
-            <div class="slideshow-container" style="background-image: url('{{ getAssets('img/slider2.png') }}')">
-
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="{{ getAssets('img/img1.png') }}" class="fondo_2">
-                    <div class="text">Caption Text</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="{{ getAssets('img/img2.png') }}" class="fondo_2">
-                    <div class="text">Caption Two</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="{{ getAssets('img/img3.png') }}" class="fondo_2">
-                    <div class="text">Caption Three</div>
-                </div>
-
-                <!-- Next and previous buttons -->
-
-            </div>
-
-
-            <div class="title_float"> LABOR SOLUTIONS</div>
-        </div>
-
-
-        <div class="container BG_C">
-
-        </div>
-
-
-        <footer class="container_grid_1">
-
-            <div class="Logo">
-
-            </div>
-            <div class="content">
-
-            </div>
-            <div class="content">
-
-            </div>
-            <div class="content">
-
-            </div>
-
-        </footer>
-
+                <!--  <div class="title_float"> LABOR SOLUTIONS</div>-->
+              </div>
+
+              <div class="vacio">
+
+              </div>
+
+          </div>
+
+          <div class="sub_cabeza">
+              <div class="sub_cabeza_1">
+                  Do You Have A Staffing Solution We Can Help With?
+              </div>
+
+          </div>
+
+          <div class="title_1" data-aos="zoom-in-down">
+              We are a progressive company offering personnel services to all levels of employers. Hiring temporary
+              labor
+              is a cost-effective solution to the rising concerns associated with employment.
+              <hr>
+          </div>
+
+          <div class="container_grid_1">
+
+              <div data-aos="zoom-in-right">
+                  <div class="title_1">
+                      Solutions for Business
+                      <hr>
+                  </div>
+                  <div class="parrafo">
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aperiam eaque
+                          enim
+                          ipsum
+                          iure, maiores minus modi mollitia nesciunt pariatur perspiciatis, possimus praesentium quod
+                          ratione,
+                          repellat rerum totam voluptatibus?
+
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos, ex laboriosam pariatur
+                          porro
+                          tenetur? Aliquam consequatur dolore eius exercitationem explicabo ipsa ipsum nobis, odit
+                          possimus
+                          ut.
+                          Ducimus, saepe tempora.
+                      </p>
+                  </div>
+
+              </div>
+
+              <div data-aos="zoom-in-left">
+                  <div class="title_1">
+                      Solutions for Individuals
+
+                      <hr>
+                  </div>
+                  <div class="parrafo">
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aperiam eaque
+                          enim
+                          ipsum
+                          iure, maiores minus modi mollitia nesciunt pariatur perspiciatis, possimus praesentium quod
+                          ratione,
+                          repellat rerum totam voluptatibus?
+
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos, ex laboriosam pariatur
+                          porro
+                          tenetur? Aliquam consequatur dolore eius exercitationem explicabo ipsa ipsum nobis, odit
+                          possimus
+                          ut.
+                          Ducimus, saepe tempora.
+                      </p>
+                  </div>
+              </div>
+
+          </div>
+        <a id="urls"></a>
+          <div style="margin: 0 5%" id="urls">
+              <div class="container_grid_2" style="text-align: center">
+
+                  <div class="card">
+
+                      <div class="card_1"  data-aos="fade-right"
+                           data-aos-offset="300"
+                           data-aos-easing="ease-in-sine">
+                          <div class="position_grid_1" style="margin-right: 7px;width: 98%" >
+                              <div class="i_desk">
+                                  <i class='fa fa-building'
+                                     style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                              </div>
+                              <div class="title_2" style="margin-right: 7px;width: 98%">
+                                  Metal Stud framing
+                              </div>
+                          </div>
+
+                          <div class="position_grid_2">
+                              At Sun Power, we provide top quality metal stud framing with a full range of services from
+                              Layout through Interior & Exterior framing for commercial and industrial buildings
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="card">
+                      <div class="card_1"  data-aos="fade-left"
+                           data-aos-offset="300"
+                           data-aos-easing="ease-in-sine">
+                          <div class="position_grid_1" style="margin-left: 7px;width: 98%">
+                              <div class="i_desk">
+                                  <i class='fa fa-refresh'
+                                     style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                              </div>
+                              <div class="title_2" style="margin-left: 7px;width: 98%">
+                                  Drywall hanging and finishing
+                              </div>
+                          </div>
+                          <div class="position_grid_2">
+                              We provide all the necessary drywall materials and labor required to complete each project
+                              to the correct level of finish. As experts in drywall installation and finishing, it's our
+                              goal to deliver unmatched quality and reliability.
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+
+              <div class="container_grid_2" style="text-align: center">
+
+                  <div class="card">
+                      <div class="card_1" data-aos="zoom-out">
+                          <div class="position_grid_1" style="padding: 5%">
+                              <div class="i_desk">
+                                  <i class='fa fa-refresh'
+                                     style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                              </div>
+                              <div class="title_2">
+                                  General Labors
+                              </div>
+                          </div>
+                          <div class="position_grid_2" style="padding: 3%">
+                              Our team of general laborers can help with any construction task as hand. They are capable
+                              of assisting general contractors with daily construction clean-up, final cleaning, fluff &
+                              buff, move and/or stock material, and follow all site health and safety regulations.
+                              <br>
+                              a. Cleaning
+                              <br>
+                              b.Mantenance
+                              <br>
+                              c.Catering Services
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+
+              <div class="container_grid_2" style="text-align: center">
+
+                  <div class="card">
+                      <div class="card_1" data-aos="fade-right"
+                           data-aos-offset="200"
+                           data-aos-easing="ease-in-sine">
+                          <div class="position_grid_1" style="margin-right: 7px;width: 98%">
+                              <div class="i_desk">
+                                  <i class='fa-solid fa-house'
+                                     style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                              </div>
+                              <div class="title_2" style="margin-right: 7px;width: 98%">
+                                  Finish Carpenters
+                              </div>
+                          </div>
+                          <div class="position_grid_2">
+                              Our capabilities include all facets of finish carpentry, and our crews are made up of highly
+                              qualified Carpenters and the supervision that can install your custom millwork and trim to
+                              transform any space.
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="card">
+                      <div class="card_1" data-aos="fade-left"
+                           data-aos-offset="200"
+                           data-aos-easing="ease-in-sine">
+                          <div class="position_grid_1" style="margin-left: 7px;width: 98%">
+                              <div class="i_desk">
+                                  <i class='fas fa-car-side'
+                                     style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+                              </div>
+                              <div class="title_2">
+                                  Painting and Specials Finishes
+                              </div>
+                          </div>
+                          <div class="position_grid_2" style="margin-left: 7px;width: 98%;padding-top: 2%">
+                              Our services range from the safe removal of expired coatings, to the application of a full
+                              range of industrial and commercial finishes. Our team of Painters, Artists, and faux
+                              finishers are prepared for anything you can dream up, and work with only the best products
+                              and equipment to bring to life anything that you can imagine
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+
+          <div class="container_grid_1 BG_C">
+
+              <div data-aos="fade-down" data-aos-offset="400"
+                   data-aos-easing="ease-in-sine">
+                  <div class="title_1">
+                      Our Core Values
+                  </div>
+
+                  <div class="title_2 padding">
+                      Meeting the challenge of changing personnel levels in today’s environment can be a real frustrating
+                      experience. Labor Solutions can help you reduce this frustration by providing you with many options
+                      in meeting your ever-changing needs. We provide 24/7 recruiting, interviewing, screening, skills
+                      assessment, background checks, and drug screens. Labor Solutions provides worker compensation
+                      coverage, we handle unemployment issues, light duty programs, along with payroll for our workers. We
+                      also provide safety training and prevent a drop in productivity levels.
+                      <br><br>
+                      Labor Solutions believes that frequent and quality communication is the key to a successful
+                      partnership, and we are dedicated to that goal. We are able to address any special needs you may
+                      have and respond to them in a timely and efficient manner. We provide you with short and long-term
+                      temporary workers, temp-to-perm, direct placement, and project or on-site programs, and we also have
+                      employee leasing options. If you have a personnel need, we have the right solution for you!
+
+                  </div>
+              </div>
+
+          </div>
+
+
+          <!--   <div class="container_grid_4 BG_C">
+
+               <div class="card2">
+                   <div class="card_1">
+                       <div class="position_grid_3">
+
+                           <i class='fas fa-car-side'
+                              style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+
+                       </div>
+                   </div>
+                   <div class="position_grid_4">
+                       Great Services
+                   </div>
+               </div>
+
+
+               <div class="card2">
+                   <div class="card_1">
+                       <div class="position_grid_3">
+
+                           <i class='fas fa-car-side'
+                              style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+
+                       </div>
+                   </div>
+                   <div class="position_grid_4">
+                       Great Services
+                   </div>
+               </div>
+
+               <div class="card2">
+                   <div class="card_1">
+                       <div class="position_grid_3">
+
+                           <i class='fas fa-car-side'
+                              style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+
+                       </div>
+                   </div>
+                   <div class="position_grid_4">
+                       Great Services
+                   </div>
+               </div>
+
+               <div class="card2">
+                   <div class="card_1">
+                       <div class="position_grid_3">
+
+                           <i class='fas fa-car-side'
+                              style="color: #D4E9F8;font-size: 50px; text-shadow: #333333 12px 12px 12px;"></i>
+
+                       </div>
+                   </div>
+                   <div class="position_grid_4">
+                       Great Services
+                   </div>
+               </div>
+
+           </div>-->
 
     </div>
+    <div style="background-image: url('{{ getAssets('img/fondo1.png') }}');height: 100vh;background-size: 100%;background-position: center;background-repeat: no-repeat;background-color: #f5f5f5" data-aos="zoom-in-up" data-aos-offset="400">
+
+        <div class="slideshow-containers" >
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides1 fades">
+                <div class="numbertext2 title_float"> Metal Stud framing</div>
+            </div>
+
+            <div class="mySlides1 fades">
+                <div class="numbertext2 title_float"> Drywall hanging and finishing</div>
+            </div>
+
+            <div class="mySlides1 fades">
+                <div class="numbertext2 title_float"> Finish Carpenters</div>
+            </div>
+
+            <div class="mySlides1 fades">
+                <div class="numbertext2 title_float"> Painting and Specials Finishes</div>
+            </div>
+
+            <div class="mySlides1 fades">
+                <div class="numbertext2 title_float"> General Labors</div>
+            </div>
+
+
+            <!-- Next and previous buttons -->
+
+        </div>
+
+        <div style="background-color: #007DA8;height: 20px"></div>
+    </div>
+
+
+
+
+    <footer class="container_grid_1 footer">
+
+        <div class="Logo">
+
+            <img src="{{ getAssets('icon/logo.png') }}" alt="" class="Logo">
+        </div>
+        <div class="content">
+            <h2>Servicios</h2>
+            <hr>
+            <br>
+            <div>
+                Metal Stud framing <br>
+                Drywall hanging and finishing<br>
+                Finish Carpenters<br>
+                Painting and Specials Finishes<br>
+                General Labors<br>
+            </div>
+
+
+        </div>
+        <div class="content">
+            <h2>Contacto</h2>
+            <hr>
+
+            <div>
+                <p>
+                    <b>Email</b><br>
+                    Info@soecg.com<br><br>
+
+                    <b>Direction</b><br>
+                    2828 Michigan Ave Unit 108 Kissimmee Fl 34744<br><br>
+
+                    <b>Phone</b><br>
+                    +1 786 609 3645
+
+                </p>
+            </div>
+
+        </div>
+        <div class="content">
+            <img src="{{ getAssets('icon/facebook.png') }}" alt="" class="icon">
+            <img src="{{ getAssets('icon/instagram.png') }}" alt="" class="icon">
+            <img src="{{ getAssets('icon/linkedin.png') }}" alt="" class="icon">
+            <img src="{{ getAssets('icon/twitter.png') }}" alt="" class="icon">
+
+        </div>
+
+    </footer>
+
+
+
+
 
     <script>
-        let slideIndex = 0;
+        let slideIndexa = 0;
         showSlides();
 
         function showSlides() {
             let i;
-            let slides = document.getElementsByClassName("mySlides");
+            let slides = document.getElementsByClassName("mySlider");
             for (i = 0; i < slides.length; i++) {
                 slides[i].style.display = "none";
             }
-            slideIndex++;
-            if (slideIndex > slides.length) {
-                slideIndex = 1
+            slideIndexa++;
+            if (slideIndexa > slides.length) {
+                slideIndexa = 1
             }
-            slides[slideIndex - 1].style.display = "block";
+            slides[slideIndexa - 1].style.display = "block";
             setTimeout(showSlides, 5000); // Change image every 2 seconds
         }
     </script>
+
+    <script>
+        let slideIndexs = 0;
+        showSlidesr();
+
+        function showSlidesr() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides1");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexs++;
+            if (slideIndexs > slides.length) {
+                slideIndexs = 1
+            }
+            slides[slideIndexs - 1].style.display = "block";
+            setTimeout(showSlidesr, 5000); // Change image every 2 seconds
+        }
+    </script>
+
+
 
 {% endblock %}

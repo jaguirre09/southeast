@@ -1,0 +1,117 @@
+{% extends "content/Header.twig" %}
+
+{% block content %}
+
+    <div class="grid_contact" style="padding-top: 120px">
+
+        <div class="location">
+            <div>
+                <div class="title_1">
+                    Locations
+                    <hr>
+                </div>
+                <div class="parrafo2">
+                    <p>
+                        <b>Email</b><br>
+                        Info@soecg.com<br><br>
+
+                        <b>Direction</b><br>
+                        2828 Michigan Ave Unit 108 Kissimmee Fl 34744<br><br>
+
+                        <b>Phone</b><br>
+                        +1 786 609 3645
+
+                    </p>
+
+
+                    <div class="img_Email_Contact">
+                        <img src="{{ getAssets('img/Email.png') }}" class="fondo_2">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="form_contact">
+            <div>
+                <div class="title_1">
+                    Talk To Us – We’re Here To Help
+                    <hr>
+                </div>
+                <div class="parrafo">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aperiam eaque
+                        enim
+                        ipsum
+                        iure, maiores minus modi mollitia nesciunt pariatur perspiciatis, possimus praesentium quod
+                        ratione,
+                        repellat rerum totam voluptatibus?
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos, ex laboriosam pariatur
+                        porro
+                        tenetur? Aliquam consequatur dolore eius exercitationem explicabo ipsa ipsum nobis, odit
+                        possimus
+                        ut.
+                        Ducimus, saepe tempora.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <form action="Contact" method="post">
+
+                <div class="grid_2">
+
+                    <div class="space_1">
+
+                        <label for="id1">FIRST NAME</label>
+                        <input type="text" class="input" name="" id="id1">
+                        <label for="id2">EMAIL ADDRESS *</label>
+                        <input type="text" class="input" name="" id="id2">
+                    </div>
+
+                    <div class="space_1">
+                        <label for="id5">LAST NAME</label>
+                        <input type="text" class="input" name="" id="id5">
+                        <label for="id6">PHONE NUMBER</label>
+                        <input type="text" class="input" name="" id="id6">
+                    </div>
+
+                </div>
+
+                <div class="space_2">
+                    <label for="id6">PHONE NUMBER</label>
+                    <input type="text" class="input" name="" id="id6">
+                </div>
+
+                <div class="space_2">
+                    <label for="id6">PHONE NUMBER</label>
+                    <input type="text" class="input" name="" id="id6">
+                </div>
+
+                <div class="space_2">
+                    <label for="id6">PHONE NUMBER</label>
+                    <input type="text" class="input" name="" id="id6">
+                </div>
+
+                <div class="space_2">
+                    <input type="submit" class="input btn"
+                           onclick="alert('Estamos en proceso de creación pronto podras enviar mensajes')">
+                </div>
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+    <footer class="footer">
+
+
+    </footer>
+
+{% endblock %}

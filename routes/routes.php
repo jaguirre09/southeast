@@ -10,6 +10,10 @@ $app->get('/', function (Request $request, array $args) {
     return view('welcome');
 });
 
+$app->get('/Contact', function (Request $request, array $args) {
+    return view('Contact');
+});
+
 $app->get('/test/{var}/', function (Request $request, array $args) {
     return $args['var'];
 });

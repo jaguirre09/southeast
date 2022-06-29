@@ -5,7 +5,30 @@
  */
 
 .footer{
+  margin-top: 40px;
+  background-color: #203242;
+  height: 50vh;
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(170px, 1fr) );
+.Logo{
+  width: 90%;
+  padding: 20px 20px 0 20px;
+}
+  .content{
+    color: white;
+    padding: 20px 40px;
+
+    h2{
+      color: #747474;
+      text-shadow: 0 2px 2px white;
+    }
+
+    .icon{
+      padding: 20px 4px;
+      width: 50px;
+    }
+
+  }
+
 
 }
