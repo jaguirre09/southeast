@@ -97,6 +97,9 @@
   .card {
     position: relative;
     overflow: hidden;
+    background-color: #007da8;
+    margin: 5px;
+    border-radius: 8px;
   }
 
   .card_1 {
@@ -125,10 +128,10 @@
 
 
   .position_grid_1 {
-    border-radius: 8px;
 
-    padding: 10% 0;
-    background-color: #007DA8;
+    border-radius: 8px;
+    padding: 5% 0;
+    //background-color: #007DA8;
     position: fixed;
     width: 100%;
     backface-visibility: hidden;
@@ -138,11 +141,12 @@
       margin-top: 12px;
       font-size: 20px;
       color: #88C4E2;
-      text-shadow: #333333 12px 12px 12px;
+      text-shadow: #333333 0 4px 4px;
     }
   }
 
   .position_grid_2 {
+    background-color: white;
     padding: 8%;
     height: 26vh;
     margin: 10px 10px 10px 0;
@@ -153,7 +157,6 @@
     backface-visibility: hidden;
     text-align: justify;
     line-height: 1.6;
-    text-shadow: #33331b 3px 4px 22px;
     transform: rotateY(180deg);
 
     .search {

@@ -14,6 +14,15 @@ $app->get('/Contact', function (Request $request, array $args) {
     return view('Contact');
 });
 
+$app->any('/Email', function (Request $request, array $args) {
+    return api('Mailer');
+});
+
+
+$app->get('/JobUs', function (Request $request, array $args) {
+    return view('job');
+});
+
 $app->get('/test/{var}/', function (Request $request, array $args) {
     return $args['var'];
 });
